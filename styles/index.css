@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.aside {
+  position: fixed;
+  width: 180px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #2F4050;
+}
+.main {
+  height: 700px;
+  background-color: #F4F6F8;
+  margin-left: 180px;
+}
+.main .header .navbar {
+  background-color: #fff;
+}
+.main .header .navbar .nav a {
+  color: #337AB7;
+}
+.main .body {
+  padding: 0 15px;
+}
+.main .body .breadcrumb {
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+.main .body .table th,
+.main .body .table td {
+  text-align: center;
+  font-weight: normal;
+}
